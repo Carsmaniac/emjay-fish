@@ -152,15 +152,22 @@ footer {
     font-size: 12px;
 }
 
-.nav-buttons {
+.nav-buttons, .nav-buttons-top {
     display: grid;
-    grid-template-columns: 33% 34% 33%;
     column-gap: 0;
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.nav-buttons {
+    grid-template-columns: 33% 34% 33%;
+}
+
+.nav-buttons-top {
+    grid-template-columns: 50% 50%;
 }
 
 @media (width < 650px) {

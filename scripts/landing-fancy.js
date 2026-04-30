@@ -9,4 +9,4 @@ function changeBackground() {
     body.style.background = "hsl(" + hue + ", 50%, 66%)";
 }
 
-setInterval(changeBackground, 200);
+setInterval(changeBackground, 75);

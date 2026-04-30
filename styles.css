@@ -110,11 +110,13 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
     transition: all 0.2s;
+    opacity: 0.75;
 }
 
 .card:hover {
     background-color: #ffffff;
     transform: scale(105%);
+    opacity: 1;
 }
 
 .card p, .card h2 {
